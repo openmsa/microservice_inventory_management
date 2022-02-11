@@ -3,11 +3,11 @@
     <map>
         <entry>
             <key>DISPLAYNAME</key>
-            <value>IP_POOL.xml</value>
+            <value>VLAN_POOL.xml</value>
         </entry>
         <entry>
             <key>DATE_MODIFICATION</key>
-            <value>1644424340475</value>
+            <value>1644505457843</value>
         </entry>
         <entry>
             <key>REPOSITORY</key>
@@ -15,7 +15,7 @@
         </entry>
         <entry>
             <key>DATE_CREATION</key>
-            <value>1644424340470</value>
+            <value>1644505457840</value>
         </entry>
         <entry>
             <key>MODEL</key>
