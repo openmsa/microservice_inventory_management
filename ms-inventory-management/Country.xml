@@ -34,11 +34,18 @@
     <parser>
       <section>
         <regexp>@^\s \s*$@</regexp>
+        <xpath>$.</xpath>
       </section>
-      <lines/>
+      <lines>
+        <line>
+          <regexp>@^(?&lt;variable_name&gt;.*)$@</regexp>
+          <xpath>$.entry</xpath>
+        </line>
+      </lines>
     </parser>
   </command>
   <command name="CREATE">
+    <operation><![CDATA[.]]></operation>
     <rest>POST</rest>
   </command>
   <command name="READ"/>
